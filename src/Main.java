@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
 
         /*
-        int V = 5; // Number of vertices in graph
-        int E = 8; // Number of edges in graph
-        Graph graph = new Graph(V, E);
+        int n = 5; // Number of vertices in graph
+        int m = 8; // Number of edges in graph
+        Graph graph = new Graph(n, m);
 
         graph.addEdge(1, 2, 50);
         graph.addEdge(1, 3, 70);
@@ -16,50 +16,9 @@ public class Main {
         graph.addEdge(4, 5, 160);
 
          */
+
         Graph graph = InputLoader.load();
 
-        /*
-        // add edge 0-1
-        graph.edge[0].source = 0;
-        graph.edge[0].destination = 1;
-        graph.edge[0].weight = 50;
-
-        // add edge 0-2
-        graph.edge[1].source = 0;
-        graph.edge[1].destination = 2;
-        graph.edge[1].weight = 70;
-
-        // add edge 0-3
-        graph.edge[2].source = 0;
-        graph.edge[2].destination = 4;
-        graph.edge[2].weight = 100;
-
-
-        // add edge 2-3
-        graph.edge[3].source = 1;
-        graph.edge[3].destination = 2;
-        graph.edge[3].weight = 100;
-
-
-        graph.edge[4].source = 1;
-        graph.edge[4].destination = 3;
-        graph.edge[4].weight = 70;
-
-        graph.edge[5].source = 2;
-        graph.edge[5].destination = 3;
-        graph.edge[5].weight = 60;
-
-        graph.edge[6].source = 2;
-        graph.edge[6].destination = 4;
-        graph.edge[6].weight = 100;
-
-        graph.edge[7].source = 3;
-        graph.edge[7].destination = 4;
-        graph.edge[7].weight = 160;
-
-         */
-
-        // Function call
         graph.kruskalAlgorithm();
     }
 }
