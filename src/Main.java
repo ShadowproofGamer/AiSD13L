@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-
+        /*
         int V = 5; // Number of vertices in graph
         int E = 8; // Number of edges in graph
         Graph graph = new Graph(V, E);
@@ -14,6 +14,9 @@ public class Main {
         graph.addEdge(3, 4, 60);
         graph.addEdge(3, 5, 100);
         graph.addEdge(4, 5, 160);
+
+         */
+        Graph graph = InputLoader.load();
 
         /*
         // add edge 0-1
